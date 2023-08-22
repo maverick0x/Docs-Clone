@@ -2,16 +2,17 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
 import '../../utils/colors.dart';
+import '../controller/auth_controller.dart';
 
-class DocsView extends GetView {
-  const DocsView({super.key});
+class AuthView extends GetView<AuthController> {
+  const AuthView({super.key});
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       body: Center(
         child: ElevatedButton.icon(
-          onPressed: () {},
+          onPressed: () => controller.signInWithGoogle(),
           icon: const Icon(
             Icons.g_mobiledata,
             size: 20,

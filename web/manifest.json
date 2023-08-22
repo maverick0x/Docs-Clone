@@ -1,6 +1,6 @@
 {
-    "name": "google_docs_clone",
-    "short_name": "google_docs_clone",
+    "name": "Docs Clone",
+    "short_name": "D.C.",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
